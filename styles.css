@@ -1,0 +1,41 @@
+:root {
+    --colorPrimar: #125688;
+    --colorAccent: #C8E8FF;
+    --textColorPrimary: #FFFFFF;
+    --windowBackground: #FFFFFF;
+    --navigationBarColor: #125688;
+}
+
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: var(--navigationBarColor);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--windowBackground);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: var(--windowBackground);
+  color: var(--navigationBarColor);
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
