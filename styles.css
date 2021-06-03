@@ -6,9 +6,10 @@
     --navigationBarColor: #125688;
 }
 
-body {
-    margin:0;
-    font-family: sans-serif;
+html, body {
+  width: 100%;
+  margin:0;
+  font-family: sans-serif;
 }
 
 .navbar {
@@ -37,5 +38,10 @@ body {
 .main {
   padding: 16px;
   margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
