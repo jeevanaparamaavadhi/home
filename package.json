@@ -1,0 +1,15 @@
+{
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run prod"
+        }
+    },
+    "devDependencies": {
+        "husky": "^6.0.0"
+    },
+    "scripts": {
+        "prod": "echo \"Add your build command here\"",
+        "postinstall": "node ./node_modules/husky/lib/installer/bin install",
+        "deploy": "git push origin main --force"
+    }
+}
